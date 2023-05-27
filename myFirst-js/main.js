@@ -103,34 +103,34 @@
 // Example 7. - Оператори порівняння та приведення до типів;
 // Яким буде результат виразів ?
 
-console.log(5 > 4); //true
+// console.log(5 > 4); //true
 
-console.log(10 >= '7'); //true бо відбувається преведення типів
+// console.log(10 >= '7'); //true бо відбувається преведення типів
 
-console.log('2' > '12'); //true 32 > 31 бо тут порівнюються коди символів (https://old.unicode-table.com/en/)
+// console.log('2' > '12'); //true 32 > 31 бо тут порівнюються коди символів (https://old.unicode-table.com/en/)
 
-console.log('2' < '12'); //false '2' < '1', 32 < 31
+// console.log('2' < '12'); //false '2' < '1', 32 < 31
 
-console.log('4' == 4); //true бо якщо порівняння не строге(==), то стрічку приводимо до числа, тобто 4==4
+// console.log('4' == 4); //true бо якщо порівняння не строге(==), то стрічку приводимо до числа, тобто 4==4
 
-console.log('6' === 6); //false при строгому порівнянню ми приводимо спочатку до типів даниж тому false
+// console.log('6' === 6); //false при строгому порівнянню ми приводимо спочатку до типів даниж тому false
 
-console.log('false' === false); //false бо різні типи даних
+// console.log('false' === false); //false бо різні типи даних
 
-//true =>1
-//false =>0
-console.log(1 == true); //true, тому що коли true=Number буде 1
+// //true =>1
+// //false =>0
+// console.log(1 == true); //true, тому що коли true=Number буде 1
 
-console.log(1 === true); //false в першу чергу порівнюємо різні типи даних
+// console.log(1 === true); //false в першу чергу порівнюємо різні типи даних
 
-console.log('0' == false); //true
+// console.log('0' == false); //true
 
-console.log('0' === false); //false
+// console.log('0' === false); //false
 
-console.log('Papaya' < 'papaya'); //true "P" < "p", 50 < 70
+// console.log('Papaya' < 'papaya'); //true "P" < "p", 50 < 70
 
-console.log('Papaya' === 'papaya'); //false 50===70
+// console.log('Papaya' === 'papaya'); //false 50===70
 
-console.log(undefined == null); //true 0==0
+// console.log(undefined == null); //true 0==0
 
-console.log(undefined === null); //false
+// console.log(undefined === null); //false
