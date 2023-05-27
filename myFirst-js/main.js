@@ -82,17 +82,17 @@
 
 // індекс маси тіла потрібно буде округлити до однієї цифри після коми;
 
-let weight = '88.3';
-let height = '1.75';
-// weight = weight.replace(',','.'); // replace - це метод заміни символа де 1-й аргумент що ми замінюємо 2-й на що.
-weight = Number(weight.replace(',', '.')); // переводимо зміну за допомогою метода Number де аргументом передаємо саму зміну.
-height = Number(height);
-// height = +height // приклад унарного(+) плюса. Уеарний плюс - це лише один операнд, тобто не має до чого додавати. Якби було 2 операнда це був вже бінарний +
-// 1) виконується метод replace;
-// 2) приводиться до Number;
-// 3) результат записується у зміну
-console.log(typeof height);
+// let weight = '88.3';
+// let height = '1.75';
+// // weight = weight.replace(',','.'); // replace - це метод заміни символа де 1-й аргумент що ми замінюємо 2-й на що.
+// weight = Number(weight.replace(',', '.')); // переводимо зміну за допомогою метода Number де аргументом передаємо саму зміну.
+// height = Number(height);
+// // height = +height // приклад унарного(+) плюса. Уеарний плюс - це лише один операнд, тобто не має до чого додавати. Якби було 2 операнда це був вже бінарний +
+// // 1) виконується метод replace;
+// // 2) приводиться до Number;
+// // 3) результат записується у зміну
+// console.log(typeof height);
 
-// const bmi = weight / Math.pow(height, 2);
-const bmi = (weight / height ** 2).toFixed(1);
-console.log(bmi); // 28.8
+// // const bmi = weight / Math.pow(height, 2);
+// const bmi = Number((weight / height ** 2).toFixed(1));
+// console.log(bmi); // 28.8
